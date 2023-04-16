@@ -1,0 +1,17 @@
+name: renderer
+description: A Markdown-to-HTML edge function written in Dart.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  aws_common: ^0.4.2+3
+  edge: <1.0.0
+  js: ^0.6.7
+  markdown: ^7.0.2
+  vercel_edge: <1.0.0
+
+dev_dependencies:
+  lints: ^2.0.1 
